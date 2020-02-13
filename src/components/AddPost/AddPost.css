@@ -1,0 +1,58 @@
+.form-container {
+  max-width: 45%;
+  min-width: 45%;
+  margin: 4% 1% 4% 5%;
+  padding: 2%;
+  background-color: #ffffff;
+}
+
+.form {
+  height: 90%;
+}
+
+.form-field {
+  margin-top: 3%;
+}
+
+.button-container {
+  margin-top: 3%;
+  text-align: center;
+}
+
+.button {
+  outline: none;
+  width: 45%;
+  margin: 0 auto;
+  padding: 1%;
+  border: 0;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  background-color: #f27623;
+  color: #ffffff;
+}
+.button:focus {
+  outline: none;
+}
+
+#response {
+  width: 45%;
+  margin: 10px auto;
+  text-align: center;
+  background-color: #23f257;
+  border-radius: 50px;
+}
+@media screen and (max-width: 500px) {
+  .form-container {
+    max-width: 80%;
+    min-width: 80%;
+    margin: 2% auto;
+    padding: 2%;
+  }
+
+  .button,
+  #response {
+    width: 60%;
+    font-size: 1rem;
+  }
+}

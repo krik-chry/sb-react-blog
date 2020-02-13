@@ -1,0 +1,22 @@
+.sb-logo {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.background-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../../assets/background.webp');
+  background-position: 100% 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+}
+.logo {
+  height: 12vh;
+  float: left;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
